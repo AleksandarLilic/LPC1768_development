@@ -1,0 +1,113 @@
+Dependencies for Project 'das_v0_1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x5D09218E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Drivers-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\lpc17xx.h)(0x58493F92)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1FA104)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B58A636)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (.\Drivers\lpc1768_led.h)(0x5CF3B10C)
+I (.\Drivers\lpc1768_gpio.h)(0x5CF24E00)
+I (.\Drivers\lpc1768_adc.h)(0x5CFFA838)
+I (.\Drivers\lpc1768_uart.h)(0x5CFE5FCB)
+I (.\Drivers\lpc1768_timer.h)(0x5CFE27AA)
+I (.\Drivers\SPI_transfer_BME280.h)(0x5CF25186)
+I (.\Drivers\lpc1768_spi.h)(0x5CF2517E)
+I (.\Drivers\bme280.h)(0x5BA7B01E)
+I (.\Drivers\bme280_defs.h)(0x5B9BE9A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
+F (.\Drivers\bme280.c)(0x5BAFB674)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Drivers-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\bme280.o --omf_browse .\objects\bme280.crf --depend .\objects\bme280.d)
+I (Drivers\bme280.h)(0x5BA7B01E)
+I (Drivers\bme280_defs.h)(0x5B9BE9A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BE5B4)
+F (.\Drivers\lpc1768_adc.c)(0x5CFF9877)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Drivers-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\lpc1768_adc.o --omf_browse .\objects\lpc1768_adc.crf --depend .\objects\lpc1768_adc.d)
+I (Drivers\lpc1768_adc.h)(0x5CFFA838)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\lpc17xx.h)(0x58493F92)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1FA104)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B58A636)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (Drivers\lpc1768_gpio.h)(0x5CF24E00)
+F (.\Drivers\lpc1768_uart.c)(0x5CFE28D1)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Drivers-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\lpc1768_uart.o --omf_browse .\objects\lpc1768_uart.crf --depend .\objects\lpc1768_uart.d)
+I (Drivers\lpc1768_uart.h)(0x5CFE5FCB)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\lpc17xx.h)(0x58493F92)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1FA104)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B58A636)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (Drivers\lpc1768_gpio.h)(0x5CF24E00)
+F (.\Drivers\SPI_transfer_BME280.c)(0x5BA7DAE8)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Drivers-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\spi_transfer_bme280.o --omf_browse .\objects\spi_transfer_bme280.crf --depend .\objects\spi_transfer_bme280.d)
+I (Drivers\SPI_transfer_BME280.h)(0x5CF25186)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\lpc17xx.h)(0x58493F92)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1FA104)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B58A636)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (Drivers\lpc1768_gpio.h)(0x5CF24E00)
+I (Drivers\lpc1768_spi.h)(0x5CF2517E)
+F (.\Drivers\lpc1768_gpio.c)(0x5CF24DC8)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Drivers-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\lpc1768_gpio.o --omf_browse .\objects\lpc1768_gpio.crf --depend .\objects\lpc1768_gpio.d)
+I (Drivers\lpc1768_gpio.h)(0x5CF24E00)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\lpc17xx.h)(0x58493F92)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1FA104)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B58A636)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x58493F92)
+F (.\Drivers\lpc1768_led.c)(0x5CF3A19A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Drivers-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\lpc1768_led.o --omf_browse .\objects\lpc1768_led.crf --depend .\objects\lpc1768_led.d)
+I (Drivers\lpc1768_led.h)(0x5CF3B10C)
+I (Drivers\lpc1768_gpio.h)(0x5CF24E00)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\lpc17xx.h)(0x58493F92)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1FA104)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B58A636)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x58493F92)
+F (.\Drivers\lpc1768_timer.c)(0x5CFE5F77)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Drivers-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\lpc1768_timer.o --omf_browse .\objects\lpc1768_timer.crf --depend .\objects\lpc1768_timer.d)
+I (Drivers\lpc1768_timer.h)(0x5CFE27AA)
+I (Drivers\lpc1768_gpio.h)(0x5CF24E00)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\lpc17xx.h)(0x58493F92)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1FA104)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B58A636)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x58493F92)
+F (.\Drivers\lpc1768_spi.c)(0x5CF2511E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Drivers-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\lpc1768_spi.o --omf_browse .\objects\lpc1768_spi.crf --depend .\objects\lpc1768_spi.d)
+I (Drivers\lpc1768_spi.h)(0x5CF2517E)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\lpc17xx.h)(0x58493F92)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1FA104)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B58A636)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x58493F92)
+I (Drivers\lpc1768_gpio.h)(0x5CF24E00)
+F (RTE\Device\LPC1768\RTE_Device.h)(0x571DDF1C)()
+F (RTE\Device\LPC1768\startup_LPC17xx.s)(0x58493182)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\startup_lpc17xx.o --depend .\objects\startup_lpc17xx.d)
+F (RTE\Device\LPC1768\system_LPC17xx.c)(0x58493182)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Drivers-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DLPC175x_6x-o .\objects\system_lpc17xx.o --omf_browse .\objects\system_lpc17xx.crf --depend .\objects\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\LPC17xx.h)(0x58493F92)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1FA104)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B58A636)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B61D2F4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include\system_LPC17xx.h)(0x58493F92)

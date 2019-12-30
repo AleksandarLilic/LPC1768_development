@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\bme280.o"
+".\objects\lpc1768_adc.o"
+".\objects\lpc1768_uart.o"
+".\objects\spi_transfer_bme280.o"
+".\objects\lpc1768_gpio.o"
+".\objects\lpc1768_led.o"
+".\objects\lpc1768_timer.o"
+".\objects\lpc1768_spi.o"
+".\objects\startup_lpc17xx.o"
+".\objects\system_lpc17xx.o"
+--strict --scatter ".\Objects\das_v0_1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\das_v0_1.map" -o .\Objects\das_v0_1.axf

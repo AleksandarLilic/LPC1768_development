@@ -1,0 +1,250 @@
+Dependencies for Project 'rtos', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x5BAC9F6E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stddef.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
+F (.\Thread1.c)(0x5BAC9F47)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\thread1.o --omf_browse .\objects\thread1.crf --depend .\objects\thread1.d)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stddef.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
+F (.\Thread2.c)(0x5B01AB0F)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\thread2.o --omf_browse .\objects\thread2.crf --depend .\objects\thread2.d)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stddef.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
+F (.\Thread3.c)(0x5B01AB0F)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\thread3.o --omf_browse .\objects\thread3.crf --depend .\objects\thread3.d)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stddef.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
+F (.\Thread4.c)(0x5BACA3DB)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\thread4.o --omf_browse .\objects\thread4.crf --depend .\objects\thread4.d)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stddef.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
+F (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\ARM\irq_cm3.s)(0x58258E42)(--cpu Cortex-M3 -g --apcs=interwork -IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include--pd "__UVISION_VERSION SETA 522" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1"--list .\listings\irq_cm3.lst --xref -o .\objects\irq_cm3.o --depend .\objects\irq_cm3.d)
+F (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_delay.c)(0x58258E42)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\rtx_delay.o --omf_browse .\objects\rtx_delay.crf --depend .\objects\rtx_delay.d)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_lib.h)(0x58258E42)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\string.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdbool.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\core_cm.h)(0x58258E42)
+I (C:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1\RTE_Components.h)(0x5AFAE28E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\tz_context.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stddef.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x58258E40)
+F (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_evflags.c)(0x58258E42)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\rtx_evflags.o --omf_browse .\objects\rtx_evflags.crf --depend .\objects\rtx_evflags.d)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_lib.h)(0x58258E42)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\string.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdbool.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\core_cm.h)(0x58258E42)
+I (C:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1\RTE_Components.h)(0x5AFAE28E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\tz_context.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stddef.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x58258E40)
+F (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_kernel.c)(0x58258E42)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\rtx_kernel.o --omf_browse .\objects\rtx_kernel.crf --depend .\objects\rtx_kernel.d)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_lib.h)(0x58258E42)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\string.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdbool.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\core_cm.h)(0x58258E42)
+I (C:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1\RTE_Components.h)(0x5AFAE28E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\tz_context.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stddef.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x58258E40)
+F (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_memory.c)(0x58258E42)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\rtx_memory.o --omf_browse .\objects\rtx_memory.crf --depend .\objects\rtx_memory.d)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_lib.h)(0x58258E42)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\string.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdbool.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\core_cm.h)(0x58258E42)
+I (C:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1\RTE_Components.h)(0x5AFAE28E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\tz_context.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stddef.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x58258E40)
+F (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_mempool.c)(0x58258E42)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\rtx_mempool.o --omf_browse .\objects\rtx_mempool.crf --depend .\objects\rtx_mempool.d)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_lib.h)(0x58258E42)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\string.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdbool.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\core_cm.h)(0x58258E42)
+I (C:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1\RTE_Components.h)(0x5AFAE28E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\tz_context.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stddef.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x58258E40)
+F (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_msgqueue.c)(0x58258E42)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\rtx_msgqueue.o --omf_browse .\objects\rtx_msgqueue.crf --depend .\objects\rtx_msgqueue.d)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_lib.h)(0x58258E42)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\string.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdbool.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\core_cm.h)(0x58258E42)
+I (C:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1\RTE_Components.h)(0x5AFAE28E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\tz_context.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stddef.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x58258E40)
+F (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_mutex.c)(0x58258E42)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\rtx_mutex.o --omf_browse .\objects\rtx_mutex.crf --depend .\objects\rtx_mutex.d)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_lib.h)(0x58258E42)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\string.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdbool.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\core_cm.h)(0x58258E42)
+I (C:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1\RTE_Components.h)(0x5AFAE28E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\tz_context.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stddef.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x58258E40)
+F (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_semaphore.c)(0x58258E42)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\rtx_semaphore.o --omf_browse .\objects\rtx_semaphore.crf --depend .\objects\rtx_semaphore.d)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_lib.h)(0x58258E42)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\string.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdbool.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\core_cm.h)(0x58258E42)
+I (C:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1\RTE_Components.h)(0x5AFAE28E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\tz_context.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stddef.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x58258E40)
+F (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_system.c)(0x58258E42)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\rtx_system.o --omf_browse .\objects\rtx_system.crf --depend .\objects\rtx_system.d)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_lib.h)(0x58258E42)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\string.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdbool.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\core_cm.h)(0x58258E42)
+I (C:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1\RTE_Components.h)(0x5AFAE28E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\tz_context.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stddef.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x58258E40)
+F (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_thread.c)(0x58258E42)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\rtx_thread.o --omf_browse .\objects\rtx_thread.crf --depend .\objects\rtx_thread.d)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_lib.h)(0x58258E42)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\string.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdbool.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\core_cm.h)(0x58258E42)
+I (C:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1\RTE_Components.h)(0x5AFAE28E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\tz_context.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stddef.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x58258E40)
+F (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_timer.c)(0x58258E42)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\rtx_timer.o --omf_browse .\objects\rtx_timer.crf --depend .\objects\rtx_timer.d)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\rtx_lib.h)(0x58258E42)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\string.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdbool.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Source\core_cm.h)(0x58258E42)
+I (C:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1\RTE_Components.h)(0x5AFAE28E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\tz_context.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stddef.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x58258E40)
+F (RTE\CMSIS\RTX_Config.c)(0x5AFAE291)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\rtx_config.o --omf_browse .\objects\rtx_config.crf --depend .\objects\rtx_config.d)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stddef.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x58258E40)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include\rtx_config.h)(0x58258E40)
+F (C:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Source\EventRecorder.c)(0x5821DC48)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\eventrecorder.o --omf_browse .\objects\eventrecorder.crf --depend .\objects\eventrecorder.d)
+I (C:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1\RTE_Components.h)(0x5AFAE28E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\string.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include\EventRecorder.h)(0x57D00542)
+I (C:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler\EventRecorderConf.h)(0x57C00E70)
+F (RTE\Compiler\EventRecorderConf.h)(0x57C00E70)()
+F (RTE\Device\LPC1768\RTE_Device.h)(0x571DDF1C)()
+F (RTE\Device\LPC1768\startup_LPC17xx.s)(0x58493182)(--cpu Cortex-M3 -g --apcs=interwork -IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include--pd "__UVISION_VERSION SETA 522" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\startup_lpc17xx.o --depend .\objects\startup_lpc17xx.d)
+F (RTE\Device\LPC1768\system_LPC17xx.c)(0x58493182)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Compiler-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\Device\LPC1768-IC:\Users\Aleksandar\Keil_ARM_projects\RTOS2_v3_0_RR&ThreadFlags\RTE\_Target_1-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\Include-IC:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\ARM_Compiler\1.2.0\Include-IC:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\objects\system_lpc17xx.o --omf_browse .\objects\system_lpc17xx.crf --depend .\objects\system_lpc17xx.d)
+I (C:\Keil_v5_ARM\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\LPC17xx.h)(0x58493182)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x58258E3E)
+I (C:\Keil_v5_ARM\ARM\PACK\Keil\LPC1700_DFP\2.4.0\Device\Include\system_LPC17xx.h)(0x58493182)
