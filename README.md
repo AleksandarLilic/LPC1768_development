@@ -8,7 +8,7 @@ Data acquisition project with developed drivers
 
 RTOS application was a part of Real-time systems course. Demo tasks are used as an example.
 
-Driver development and their implementation was done as a project for two courses: Automotive electronics and Data acquisition systems. Data from sensors was sent to Android app via bluetooth for display.
+Driver development and their implementation was done as a project for two courses: Automotive electronics and Data acquisition systems. Communication with processor was done through Android app via Bluetooth.
 
 Source files are available for every project and should just slot in IDE of choice.  
 
@@ -21,7 +21,25 @@ No further development is planned
 ## **AE & DAS: Driver support and application**
 
 **Description:**  
- 
+
+Driver development for LPC1768 peripherals:
+- GPIO
+- GPIO extension for onboard LEDs
+- Timer
+- UART
+- SPI
+- ADC
+- BME280 specific: adaptation of a provided HAL  
+
+Each peripheral has it's own *.h* and *.c* file, so they can be used separately or together.  
+
+Data acquisition application is used as an example of use case for developed drivers.
+In the beginning, all peripherals are initialized and interrupts enabled. Main function is then used just to check raised flags by ISRs. This time can be used to put CPU to sleep if needed.  
+
+Processor is communicating via SPI with Bosch BME280 sensor and via UART to Bluetooth module and/or terminal on PC. Analog sensor TMP36 from Analog Devices is taped to the CPU in order to measure temperatures under load. Android app is used, via bluetooth module, for sending refresh rate controls to microcontroller and receiving sensor data from it. 
+
+// to add app photo  
+
 
 **Status:**   
 Finished
