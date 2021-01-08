@@ -36,9 +36,11 @@ Each peripheral has it's own *.h* and *.c* file, so they can be used separately 
 Data acquisition application is used as an example of the use case for developed drivers.
 In the beginning, all peripherals are initialized and interrupts enabled. The main function is then used just to check raised flags by ISRs. This time can be used to put CPU to sleep if needed.  
 
-The processor is communicating via SPI with Bosch BME280 sensor and via UART to Bluetooth module and/or terminal on PC. Analog sensor TMP36 from Analog Devices is taped to the CPU to measure temperatures under load. Android app is used, via Bluetooth module, for sending refresh rate controls to the microcontroller and receiving sensor data from it. 
+The processor is communicating via SPI with Bosch BME280 sensor and via UART to Bluetooth module and/or terminal on PC. Analog sensor TMP36 from Analog Devices is taped to the CPU to measure temperatures under load. Android app is used, via Bluetooth module, for sending refresh rate controls to the microcontroller and receiving sensor data from it.   
 
-![Android Application](https://github.com/AleksandarLilic/LPC1768_development/tree/master/Drivers\images\android_app.png)  
+Android app interface:  
+
+![Android Application](https://github.com/AleksandarLilic/LPC1768_development/blob/master/Drivers/images/android_app.png)  
 
 
 **Status:**   
@@ -49,7 +51,7 @@ Finished
 
 **Description:**  
 
-Project is used as a demonstration of what is possible with RTOS compared to bare-metal programming. Tasks are used in conjunction with four LEDs ( [schematic](https://github.com/AleksandarLilic/LPC1768_development/blob/master/RTOS/Schematic.pdf) ) for each thread to provide a visual representation of what happens with running threads in different scenarios. Every application uses system tick of 1000Hz, so each thread is executed 1ms at a time.  
+Project is used as a demonstration of what is possible with RTOS compared to bare-metal programming. Tasks are used in conjunction with four LEDs ([schematic](https://github.com/AleksandarLilic/LPC1768_development/blob/master/RTOS/Schematic.pdf)) for each thread to provide a visual representation of what happens with running threads in different scenarios. Every application uses system tick of 1000Hz, so each thread is executed 1ms at a time.  
 
 *Time for scheduler is not diplayed on the graphs below. Although a very small portion of time is used for scheduling at every system tick, the goal of graphs is thread execution pattern.
 
