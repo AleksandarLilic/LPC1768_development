@@ -38,7 +38,7 @@ In the beginning, all peripherals are initialized and interrupts enabled. The ma
 
 The processor is communicating via SPI with Bosch BME280 sensor and via UART to Bluetooth module and/or terminal on PC. Analog sensor TMP36 from Analog Devices is taped to the CPU to measure temperatures under load. Android app is used, via Bluetooth module, for sending refresh rate controls to the microcontroller and receiving sensor data from it. 
 
-// to add app photo  
+![Android Application](https://github.com/AleksandarLilic/LPC1768_development/tree/master/Drivers\images\android_app.png)  
 
 
 **Status:**   
@@ -49,13 +49,15 @@ Finished
 
 **Description:**  
 
-Project is used as a demonstration of what is possible with RTOS compared to bare-metal programming. Tasks are used in conjunction with four LEDs for each thread to provide a visual representation of what happens with running threads in different scenarios.  
+Project is used as a demonstration of what is possible with RTOS compared to bare-metal programming. Tasks are used in conjunction with four LEDs ( [schematic](https://github.com/AleksandarLilic/LPC1768_development/blob/master/RTOS/Schematic.pdf) ) for each thread to provide a visual representation of what happens with running threads in different scenarios. Every application uses system tick of 1000Hz, so each thread is executed 1ms at a time.  
+
+*Time for scheduler is not diplayed on the graphs below. Although a very small portion of time is used for scheduling at every system tick, the goal of graphs is thread execution pattern.
 
 The first example shows a typical use case for RTOS: Round-robin with a thread priority. Thread 1 achieves the highest determinism as it is a top priority for the execution. Thread 2 is one level lower and thread 3 one lower than that. 
 
 //time graph to be added  
 
-The second example is Round-robin without priorities. It uses system tick of 1000Hz, so each thread is executed 1ms at a time. The result is a seemingly parallel execution of all three tasks. Slowed down version clearly shows what is actually going on with the execution.
+The second example is Round-robin without priorities. As there is no preemption, the end result is a seemingly parallel execution of all three tasks. Slowed down version clearly shows what is actually going on with the workload as threads are executed one at a time.
 
 //time graph to be added  
 
