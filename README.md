@@ -40,7 +40,7 @@ The processor is communicating via SPI with Bosch BME280 sensor and via UART to 
 
 Android app interface:  
 
-![Android Application](https://github.com/AleksandarLilic/LPC1768_development/blob/master/Drivers/images/android_app.png)  
+![Android Application](https://github.com/AleksandarLilic/LPC1768_development/blob/master/images/android_app.png)  
 
 
 **Status:**   
